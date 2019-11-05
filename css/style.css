@@ -15,7 +15,7 @@ a{
     text-decoration: none;
     color: #000000;
 }
-    #menu{
+#menu{
     height: 100px;
     width: 100%;
     background-color: #ff1a1a;
@@ -23,6 +23,7 @@ a{
     display: flex;
     flex-direction: row;
     list-style: none;
+    position: sticky;
 }
 .menu{
     height: 50px;
