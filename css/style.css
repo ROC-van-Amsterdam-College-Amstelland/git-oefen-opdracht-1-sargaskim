@@ -1,8 +1,8 @@
 /*
-rood #E74130, wit #ffffff, blauwgrijs #445a9b, zwart #000000
+rood #E74130, wit #ffffff, blauwgrijs #3e528e, zwart #000000
 zoekbalk in rood boven aan de website
 Lettertype: Angsana New
-Kleurgebruik: rood #ff1a1a, wit #ffffff, blauwgrijs #445a9b, zwart #000000
+Kleurgebruik: rood #ff1a1a, wit #ffffff, blauwgrijs #3e528e, zwart #000000
 het menu krijgt het lettertype Angsana New, in standaard grootte, in wit met een rode achtergrond.
 voor alle koppen wordt hetzelfde lettertype en overal style gebruikt. Dat is; Angsana New, wit, zwart
 Het lettertype is Angsana New met lettergrootte 10 in wit met achtergrond kleur blauwgrijs
@@ -10,16 +10,19 @@ Het lettertype is Angsana New met lettergrootte 10 in wit met achtergrond kleur 
 *{
     margin: 0%;
     padding: 0%;
+    font-family: Arial;
 }
 a{
     text-decoration: none;
     color: #000000;
+    
 }
 #menu{
     height: 100px;
     width: 100%;
     background-color: #ff1a1a;
-    border: solid  2px black;
+    border-top: solid  2px black;
+    border-bottom: solid  2px black;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -35,4 +38,25 @@ a{
     border-bottom: solid 2px #000000;
     text-align: center;
     line-height: 48px;
+}
+#tekst{
+    /*css voor tekst vak*/
+width: 75%;
+background-color: #ffffff;
+}
+#foto{
+    /*css voor waar de foto's staan*/
+width: 25%;
+background-color: #ffffff;
+}
+.fotoDiv{
+    /*css voor foto's*/
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #3e528e;
+    display: flex;
+    color: #ffffff;
+    font-size: small;
 }
