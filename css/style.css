@@ -26,7 +26,8 @@ a{
     display: flex;
     flex-direction: row;
     list-style: none;
-    position: sticky;
+    position:fixed;
+    top:0;
 }
 .menu{
     height: 50px;
@@ -39,19 +40,55 @@ a{
     text-align: center;
     line-height: 48px;
 }
-#tekst{
-    /*css voor tekst vak*/
-width: 75%;
-background-color: #ffffff;
+#git{
+    border-left: solid 2px #000000;
+    margin-left: 40%;
 }
-#foto{
-    /*css voor waar de foto's staan*/
-width: 25%;
-background-color: #ffffff;
+#logo{
+    width: 200px;
+    align-items: stretch;
+    margin-left: auto;
 }
-.fotoDiv{
-    /*css voor foto's*/
+main{
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 105px;
+    display: flex;
+    flex-direction: row;
 }
+#tekstDiv{
+    width: 70%;
+    background-color: #f2f2f2;
+    margin: 10px;
+}
+#profiel{
+    height: 200px;
+    margin-top: 5px;
+    background-color: #f2f2f2;
+}
+h1{
+    background-color: #f2f2f2;
+}
+p{
+    background-color: #f2f2f2;
+    margin-top: 5px;
+}
+#fotoDiv{
+    background-color: #f2f2f2;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.foto {
+    object-fit: contain;
+    width:100%;
+    height: 300px;
+    background-color: #f2f2f2;
+}
+
+
 footer{
     width: 100%;
     height: 100px;
@@ -59,4 +96,8 @@ footer{
     display: flex;
     color: #ffffff;
     font-size: small;
+}
+#footer{
+    margin: 10px;
+    background-color: #3e528e;
 }
