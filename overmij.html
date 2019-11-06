@@ -8,15 +8,15 @@
 
 <body>
 
-    <header>
+     <header>
         <div id="menubalk">
             <ul id="menuLinks">
-                <li class="menu"><a href="index.html">Home</a></li>
-                <li class="menu"><a href="overmij.html">over mij</a></li>
-                <li class="menu"><a href="vaardigheden.html">vaardigheden</a></li>
-                <li class="menu"><a href="projecten.html">projecten</a></li>
-                <li class="menu"><a href="nieuws.html">nieuws</a></li>
-                <li class="menu"><a href="contact.html">contact</a></li>
+                    <li class="menu"><a href="index.html">Home</a></li>
+                    <li class="menu"><a href="overmij.html">over mij</a></li>
+                    <li class="menu"><a href="vaardigheden.html">vaardigheden</a></li>
+                    <li class="menu"><a href="projecten.html">projecten</a></li>
+                    <li class="menu"><a href="nieuws.html">nieuws</a></li>
+                    <li class="menu"><a href="contact.html">contact</a></li>
             </ul>
             <div id="menuRechts">
                 <img id="logo" src="afbeeldingen/logo.png">
@@ -26,10 +26,20 @@
 
     <main>
         <div id="tekstDiv">
-                <h1></h1>
-                <p></p>               
+            <h1>Over mij</h1>
+            <p>
+                Mijn naam is Kim van Straaten, ben 17 jaar oud.  Ik doe de opleiding applicatie ontwikkeling bij MBO Amstelland.<br>
+                Ik woon in Amsterdam met mijn ouders, mijn broertje en mijn kat, Tony. <br>
+                Ik besteed zo goed als al mijn vrije tijd aan het kijken van series en films. Op het moment is boku no hero academia mijn lievelingen serie. Ik ben ook groot fan van Marvel.<br>
+                Strips<br>
+                Eten en koffie<br>
+            </p>               
         </div>
         <div id="fotoDiv">
+                <img class="foto" src="afbeeldingen/millieu_demostratie.jpg">
+                <img class="foto" src="afbeeldingen/erik_en_ik.jpeg">
+                <img class="foto" src="afbeeldingen/nik_en_ik.jpeg">
+
         </div>
     </main>
     
@@ -39,7 +49,25 @@
         waar alle versies van deze website te vinden zijn.
         </p>
         <p id="date"class="footer"></p>
+  
+        <table class="thumb">
+            <tbody>
+                <tr>
+                    <td id="tDown" onclick="nrD">👎</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="thumb">
+            <tbody>
+                <tr>
+                    <td id="tUp" onclick="nrU">👍</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
     </footer>
+
 
     <script src="js/script.js"></script>
 </body>
